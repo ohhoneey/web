@@ -2,7 +2,7 @@ let section3 = document.getElementById('up');
 let section4 = document.getElementsByClassName("rightside")[0];
 let section5 = document.getElementsByClassName("downblock")[0];
 let inputUserText = document.getElementById('inputUserText');
-let Submitbtn = document.getElementById('Submitbtn');
+let Submitbtn = document.getElementById('Delbtn');
 let btnSubmit = document.getElementById('btnSubmit');
 let checkBtn = document.getElementById('checkBtn');
 
