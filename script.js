@@ -53,10 +53,10 @@ let task3 = () => {
         let str = document.getElementsByClassName('text-area');
         const count = (str[0].innerText || str[0].value).split(/\s+/).length
         alert(count);
-        document.cookie ="Counter" + count;
+        document.cookie ="Counter = " + count;
     }
 
-    if(document.cookie.includes('Counter')){
+    if(document.cookie.includes('Counter = ')){
         alert(document.cookie);
         alert("Cookies will be deleted permanently");
         deleteAllCookies();
@@ -122,5 +122,6 @@ task1();
 task2();
 task3();
 
-task4();
+//task4();
 task5();
+task6();
