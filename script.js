@@ -53,7 +53,7 @@ let task3 = () => {
         let str = document.getElementsByClassName('text-area');
         const count = (str[0].innerText || str[0].value).split(/\s+/).length
         alert(count);
-        document.cookie ="Counter" + count;
+        document.cookie ="Counter = " + count;
     }
 
     if(document.cookie.includes('Counter')){
